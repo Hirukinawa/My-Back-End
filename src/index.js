@@ -12,6 +12,6 @@ app.post('/post', (req, res) => {
     res.send("Fez o post")
 })
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT;
 
 app.listen(port, () => {})
